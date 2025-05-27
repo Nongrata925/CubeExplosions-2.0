@@ -25,7 +25,6 @@ public class Cube : MonoBehaviour
     public bool CanSplit() =>
         Random.Range(_minSplitChance, _maxSplitChance) <= _currentSplitChance;
 
-
     public void ReduceSplitChance(int generation)
     {
         _generation = generation;
